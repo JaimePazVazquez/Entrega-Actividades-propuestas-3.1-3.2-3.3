@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>3.3</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+    <html lang="es">
+
+    <meta charset="UTF-8">
+    <title>Aplicando estilos</title>
+    <style>
+        h2 {
+            color: antiquewhite;
+        }
+
+        #h2:first-child {
+            color: black;
+        }
+
+        #h2:last-child {
+            color: brown;
+        }
+
+        #principal {
+            color: cyan;
+        }
+
+        #principal h2 {
+            color: goldenrod;
+        }
+
+        .Artículo {
+            text-align: center;
+        }
+
+        .Artículo h2 {
+            text-size: 20px;
+        }
+
+        #secundario article:last-child>p {
+            color: lime;
+        }
+    </style>
+
+<body>
+    <h2>Título de la sección</h2>
+    <div id="principal">
+        Texto div principal
+        <article class="Artículo">
+            <h2>Artículo 1</h2>
+            <p>Texto del artículo 1</p>
+        </article>
+        <article class="Artículo">
+            <h2>Artículo 2</h2>
+            <p>Texto del artículo 2</p>
+        </article>
+    </div>
+    <div id="secundario">
+        Texto div secundario
+        <article class="Artículo">
+            <h2>Artículo 3</h2>
+            <p>Texto del artículo 3</p>
+        </article>
+        <article class="Artículo">
+            <h2>Artículo 4</h2>
+            <p>Texto del artículo 4</p>
+        </article>
+    </div>
+</body>
+</html>
